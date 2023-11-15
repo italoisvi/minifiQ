@@ -3,7 +3,7 @@
     "name": "uglify",
     "friendlyName": "UglifyJS",
     "description": "Minify JavaScript files with UglifyJS",
-    "author": "Your Name",
+    "author": "Italo Isvi",
     "helpMarkDown": "Replace with markdown to show in help",
     "category": "Build",
     "visibility": ["Build", "Release"],
