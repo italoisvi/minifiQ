@@ -1,8 +1,8 @@
 {
-    "id": "e213ff0f-5d5c-474b-9992-e6fa4e5c1bfb",
-    "name": "htmlmin",
-    "friendlyName": "HTMLMinifier",
-    "description": "Minify HTML files with HTMLMinifier",
+    "id": "e213ff0f-5d5c-474b-9992-e6fa4e5c1bfc",
+    "name": "cleancss",
+    "friendlyName": "CleanCSS",
+    "description": "Minify CSS files with CleanCSS",
     "author": "Italo Isvi",
     "helpMarkDown": "Replace with markdown to show in help",
     "category": "Build",
@@ -13,7 +13,7 @@
         "Minor": "4",
         "Patch": "0"
     },
-    "instanceNameFormat": "htmlmin $(src)",
+    "instanceNameFormat": "cleancss $(src)",
     "inputs": [
         {
             "name": "src",
@@ -34,7 +34,7 @@
     ],
     "execution": {
         "Node": {
-            "target": "htmlmin.js",
+            "target": "cleancss.js",
             "argumentFormat": ""
         }
     }
