@@ -1,0 +1,41 @@
+{
+    "id": "e213ff0f-5d5c-474b-9992-e6fa4e5c1bfa",
+    "name": "uglify",
+    "friendlyName": "UglifyJS",
+    "description": "Minify JavaScript files with UglifyJS",
+    "author": "Your Name",
+    "helpMarkDown": "Replace with markdown to show in help",
+    "category": "Build",
+    "visibility": ["Build", "Release"],
+    "demands": ["npm"],
+    "version": {
+        "Major": "0",
+        "Minor": "1",
+        "Patch": "0"
+    },
+    "instanceNameFormat": "uglify $(src)",
+    "inputs": [
+        {
+            "name": "src",
+            "type": "filePath",
+            "label": "Source",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Path to source files"
+        },
+        {
+            "name": "dest",
+            "type": "filePath",
+            "label": "Destination",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Path to write the output"
+        }
+    ],
+    "execution": {
+        "Node": {
+            "target": "uglify.js",
+            "argumentFormat": ""
+        }
+    }
+}
