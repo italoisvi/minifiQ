@@ -21,7 +21,7 @@
             "label": "Source",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "Path to source files"
+            "helpMarkDown": "Caminho da pasta origem do arquivo"
         },
         {
             "name": "dest",
@@ -29,7 +29,7 @@
             "label": "Destination",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "Path to write the output"
+            "helpMarkDown": "Caminho para a pasta de destino"
         }
     ],
     "execution": {
